@@ -53,7 +53,7 @@ def photo_handler(update, context):
     update.message.reply_text('photo received')
 
 def main():
-   print('bot started')
+   print('bot started....')
    upd= Updater(bot_token, use_context=True)
    disp=upd.dispatcher
 
